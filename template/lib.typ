@@ -178,12 +178,12 @@
 
 // experience-edu renders a content block for educational experience.
 #let experience-edu(..args) = {
-  experience(..args, label: "Courses")
+  experience(..args, label: "Cours")
 }
 
 // experience-work renders a content block for work experience.
 #let experience-work(..args) = {
-  experience(..args, label: "Achievements/Tasks")
+  experience(..args, label: "Réalisations/Tâches")
 }
 
 // project renders a content block for a project.
@@ -208,7 +208,7 @@
 
 #let modern-resume(
   // The person's full name as a string.
-  author: "John Doe",
+  author: "Yacine El Ayar",
   // A short description of your profession.
   job-title: [Data Scientist],
   // A short description about your background/experience/skills, or none.

@@ -97,6 +97,7 @@
 #pill("C++", fill: true)
 #pill("Java", fill: true)
 #pill("LLM", fill: true)
+#pill("Deep Learning", fill: true)
 
 #separator()
 
@@ -121,18 +122,11 @@
 == Loisirs
 
 #pill("Science")
-#pill("Sports")
 #pill("Cuisine")
 #pill("Jardinage")
 #pill("Sports")
 #pill("Musiques")
 
-
-// lozenge.filled.small
-// diamond.filled.small
-// dash.wave
-// dash.wave.double
-// floral.r
 
 // #experience-edu(
 //   title: "Baccalauréat Série Scientifique",

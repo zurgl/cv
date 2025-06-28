@@ -1,3 +1,4 @@
 .pre-commit-config.yaml
 tests/*.pdf
 .trash
+dist/cv.pdf

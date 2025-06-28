@@ -106,7 +106,7 @@
 #project(
   title: [#link("https://ai-generated-front.vercel.app/")[AI Generated]],
   description: [
-    -Conseil en ingénierie des S.I auprès d'entreprise nationale et internationale.
+    - Conseil en ingénierie des S.I auprès d'entreprise nationale et internationale.
     - Focus prioritaire sur les nouvelles technologies et leur intégration.
   ],
   date-from: "2023",

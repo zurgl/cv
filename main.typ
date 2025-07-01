@@ -1,6 +1,6 @@
 
 // #import "temmpl: modern-resume, experience-work, experience-edu, project, pill
-#import "template/lib.typ": modern-resume, experience-work, experience-edu, project, pill, separator
+#import "template/lib.typ": modern-resume, experience-work, experience-edu, project, pill, separator, setLogoContent
 
 
 
@@ -18,6 +18,9 @@
     website: link("https://yacine.elayar.fr")[elayar.fr],
   ),
 )
+
+#let logoColLen = 12%
+#let logoRowLen = 12%
 
 == éducation
 
@@ -41,9 +44,8 @@
   subtitle: [#link("https://figment.io/emea/")[Figement]],
   facility-description: "Company operating in sector Blockchain",
   task-description: [
-    - Content Writer
+    - Content Writer, Ingénieur logiciel.
     - Smart contract developpeur.
-    - Ingénieur logiciel.
   ],
   date-from: "10/2022",
   date-to: "04/2021",
@@ -127,6 +129,26 @@
 #pill("Sports")
 #pill("Musiques")
 
+
+== Clients
+
+#table(
+  columns: (logoColLen, logoColLen, logoColLen, logoColLen, logoColLen),
+  rows: (logoRowLen, logoRowLen),
+  column-gutter: 10pt,
+  stroke: none,
+  setLogoContent("bnp.png"),
+  setLogoContent("cetelem.png"),
+  setLogoContent("edf.png"),
+  setLogoContent("figment.png"),
+  setLogoContent("marie.png"),
+
+  setLogoContent("reims.png"),
+  setLogoContent("sfds.png"),
+  setLogoContent("sg.png"),
+  setLogoContent("ssc.png"),
+  setLogoContent("utt.png"),
+)
 
 // #experience-edu(
 //   title: "Baccalauréat Série Scientifique",

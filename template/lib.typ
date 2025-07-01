@@ -285,3 +285,8 @@
     )[#sym.diamond.filled.small #sym.dash.wave #sym.dash.wave #sym.dash.wave #sym.dash.wave#sym.diamond.filled.small]]
   v(vmargin)
 }
+
+
+#let setLogoContent(path) = {
+  image("../assets/logos/" + path, width: 100%)
+}

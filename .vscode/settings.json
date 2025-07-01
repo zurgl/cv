@@ -16,6 +16,6 @@
   },
   "files.exclude": {
     "typstfmt.toml": false,
-    ".trash": true
+    ".trash": false
   }
 }

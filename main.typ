@@ -41,7 +41,7 @@
 
 #experience-work(
   title: "Freelancer",
-  subtitle: [#link("https://figment.io/emea/")[Figement]],
+  subtitle: [#link("https://figment.io/emea/")[Figment]],
   facility-description: "Company operating in sector Blockchain",
   task-description: [
     - Content Writer, Ingénieur logiciel.

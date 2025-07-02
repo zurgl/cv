@@ -28,7 +28,7 @@
   title: "Master en Mathématiques Appliquées",
   subtitle: [#link("https://www.univ-reims.fr/")[Université de Reims Champagne-Ardenne]],
   task-description: [
-    - Mathématiques appliquées à l'industrie:
+    - Mathématiques appliquées à l'industrie.
     - Machine learning, réseaux de neurones.
   ],
   date-from: "09/2000",

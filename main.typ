@@ -37,7 +37,7 @@
 
 #separator()
 
-== Expériences professionnelle
+== Expériences professionnelles
 
 #experience-work(
   title: "Freelancer",
@@ -47,8 +47,8 @@
     - Content Writer, Ingénieur logiciel.
     - Smart contract developpeur.
   ],
-  date-from: "10/2022",
-  date-to: "04/2021",
+  date-from: "04/2021",
+  date-to: "10/2022",
 )
 
 #separator()
@@ -62,8 +62,8 @@
     - Enseignant en Lycée Profesionnel.
     - R&D à l'Université Technologique de Troyes.
   ],
-  date-from: "08/2020",
-  date-to: "01/2013",
+  date-from: "01/2013",
+  date-to: "08/2020",
 )
 
 #separator()
@@ -77,8 +77,8 @@
     - En charge de la maintenance et de l'évolution d'une application d'évaluation des risques financiers sur les fonds d'investissement.
     - Migration en Java de 40 applications chargées de la valorisation et du reporting des produits d'AXA IM.
   ],
-  date-from: "12/2011",
-  date-to: "07/2008",
+  date-from: "07/2008",
+  date-to: "12/2011",
 )
 
 #colbreak()
@@ -112,6 +112,7 @@
     - Focus prioritaire sur les nouvelles technologies et leur intégration.
   ],
   date-from: "2023",
+  date-to: today,
 )
 
 #separator()
@@ -123,11 +124,11 @@
 
 == Loisirs
 
-#pill("Science")
+#pill("Sciences")
 #pill("Cuisine")
 #pill("Jardinage")
 #pill("Sports")
-#pill("Musiques")
+#pill("Musique")
 
 
 == Clients
@@ -149,24 +150,3 @@
   setLogoContent("ssc.png"),
   setLogoContent("utt.png"),
 )
-
-// #experience-edu(
-//   title: "Baccalauréat Série Scientifique",
-//   subtitle: "Lycée Joliot-Curie, Romilly-sur-seine.",
-//   task-description: [
-//     - Sciences de l'Ingénieur.
-//     - Spécialié mathématiques.
-//   ],
-//   date-from: "08/2000",
-//   date-to: "09/1997",
-// )
-
-// #project(
-//   title: "Project 2",
-//   subtitle: "Data Visualization, Data Engineering",
-//   description: [
-//     - #lorem(20)
-//   ],
-//   date-from: "08/2022",
-//   date-to: "09/2022",
-// )
